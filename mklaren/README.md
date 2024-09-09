@@ -11,6 +11,14 @@ A Multiple kernel learning Python library.
 * Simultaneous multiple kernel learning and low-rank approximation base on least-angle regression (the Mklaren algorithm)
 
 
+## How to train
+
+`run.py` creates the kernel matrix, which I save in CSV format in the `results` directory.
+
+`classify_kernel.ipynb` loads the saved kernel and performs classification.
+
+
+
 #### Resources
 
 * Quick Start Guide [[jupyter notebook]](https://cdn.rawgit.com/mstrazar/mklaren/master/docs/quick_start.ipynb) [[html]](https://cdn.rawgit.com/mstrazar/mklaren/master/docs/quick_start.html)
@@ -69,3 +77,5 @@ The FITC method is borrowed from the GPy package:
 Run Sphinx inside `docs`
 
     sphinx-build -b html source/ build/html/
+
+
