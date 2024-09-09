@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mklaren
+Version: 1.2
+Summary: The Multiple Kernel Learning Python Library.
+Home-page: https://github.com/mstrazar/mklaren
+Download-URL: https://github.com/mstrazar/mklaren/archive/1.1.tar.gz
+Author: Martin Strazar
+Author-email: martin.strazar@gmail.com
+Keywords: machine learning,kernel methods,low-rank approximation,regression
+License-File: LICENSE.txt
